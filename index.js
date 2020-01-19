@@ -37,7 +37,7 @@ app.get('/', function (req, res) {
 		    res.render('home', {
     	stock: doneAPI
 });
-	});
+	}, "fb");
  });
 //call_api(function, req.body.stock_ticker)
 // Set handlebars index POST routes
